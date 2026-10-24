@@ -1,0 +1,31 @@
+{
+  "name": "contextly",
+  "version": "0.1.0",
+  "description": "In-memory context optimization library for LLM workflows",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "llm",
+    "context-optimization",
+    "prompt-engineering",
+    "typescript",
+    "gemma",
+    "gemini"
+  ],
+  "license": "MIT"
+}
