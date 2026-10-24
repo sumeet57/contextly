@@ -1,0 +1,21 @@
+{
+  "name": "contextly-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=@contextly/core",
+    "typecheck": "npm run typecheck --workspace=@contextly/core",
+    "example": "tsx examples/basic.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsup": "^8.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.5"
+  }
+}
