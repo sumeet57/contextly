@@ -1,12 +1,12 @@
-# Memovable
+# Contextly
 
 **Context that LLMs love.**
 
-Memovable is an open-source TypeScript library focused on query-aware context retrieval and optimization for Large Language Model (LLM) applications.
+Contextly is an open-source TypeScript library focused on query-aware context retrieval and optimization for Large Language Model (LLM) applications.
 
 The goal is to help developers retrieve relevant information from conversation history and build more efficient context for LLMs.
 
-🌐 Website: [memovable.tech](https://memovable.tech)
+🌐 Website: [contextly.vercel.app](https://contextly.vercel.app/)
 
 ## Features
 
@@ -25,8 +25,8 @@ The goal is to help developers retrieve relevant information from conversation h
 ### Development Setup
 
 ```bash
-git clone https://github.com/sumeet57/memovable.git
-cd memovable
+git clone https://github.com/sumeet57/contextly.git
+cd contextly
 npm install
 ```
 
@@ -46,7 +46,7 @@ npm run example
 ## Project Structure
 
 ```text
-memovable/
+contextly/
 ├── packages/
 │   └── core/
 │       └── src/
@@ -72,7 +72,7 @@ memovable/
 
 ## Open Source
 
-Memovable's core library is intended to remain free and open source. Optional hosted services and advanced features may be offered separately in the future.
+Contextly's core library is intended to remain free and open source. Optional hosted services and advanced features may be offered separately in the future.
 
 ## Contributing
 
