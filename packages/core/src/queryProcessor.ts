@@ -30,6 +30,8 @@ export interface ProcessedQuery {
 }
 
 const STOPWORDS = new Set([
+  "main",
+  "new",
   "a",
   "an",
   "the",
